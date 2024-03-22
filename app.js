@@ -1,11 +1,10 @@
-const { request } = require("express");
+const  express  = require ("express");
 
-const app  =express()
+const app = express()
 
 app.get('/',(req,res)=>{
     res.json({
-        mesg: 'hello backend12'
+        mesg: 'hello backend'
     })
 })
-
 app.listen(3000)
